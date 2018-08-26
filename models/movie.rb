@@ -18,7 +18,7 @@ class Movie
     conn.exec(sql)
   end
 
-  # gets all of the posts
+  # gets all of the movies
   def self.all
     # create connection
     conn = open_connection
@@ -34,7 +34,7 @@ class Movie
     movies
   end
 
-  # gets one of the posts
+  # gets one of the movies
   def self.find(id)
     conn = open_connection
 
@@ -45,7 +45,7 @@ class Movie
     movie = hydrate(movies_result[0])
   end
 
-  # deletes one of the posts
+  # deletes one of the movies
   def self.destroy(id)
     conn = open_connection
 
