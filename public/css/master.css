@@ -1,0 +1,50 @@
+body {
+  background: grey;
+}
+
+.main_section {
+  background: whitesmoke;
+  text-align: center;
+  margin: auto;
+  width: 70%;
+  border-radius: 25px;
+  border: 1px solid black;
+}
+
+.transition {
+  transform: scale(1.5) !important;
+}
+
+.movies {
+  width: 33%;
+  display: inline-block;
+}
+
+.movies:hover {
+  background-color: lightgrey;
+  width: 33%;
+  display: inline-block;
+}
+
+.center {
+  text-align: center;
+  margin: auto;
+}
+
+.navbar {
+  background: whitesmoke;
+  text-align: center;
+  padding: 20px 0;
+  border-bottom: 1px solid black;
+}
+
+.navbar a {
+  text-decoration: none;
+  font-size: 20px;
+  border-left: 1px solid whitesmoke;
+  border-right: 1px solid whitesmoke;
+}
+
+.navbar a:hover {
+  background: lightgrey;
+}
