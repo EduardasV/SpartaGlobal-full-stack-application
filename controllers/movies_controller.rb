@@ -59,7 +59,7 @@ class MoviesController < Sinatra::Base
     movie = Movie.find(id)
 
     movie.title = params[:title]
-    movie.movie_description = params[:post_body]
+    movie.movie_description = params[:movie_description]
     movie.movie_image = params[:movie_image]
     movie.movie_trailer = params[:movie_trailer]
 
