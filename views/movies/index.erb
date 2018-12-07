@@ -1,0 +1,11 @@
+<h1 class='center'>Welcome to the homepage</h1>
+<% @movies.each do |movie| %>
+  <div class="movies image">
+    <a href="/<%= movie.id %>">
+      <h3>
+        <%= movie.title %>
+      </h3>
+      <img src="<%= movie.movie_image %>" width="150" height='200'>
+    </a>
+  </div>
+<% end %>
